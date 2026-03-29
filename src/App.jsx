@@ -3,6 +3,7 @@ import './App.css'
 import Header from  "./components/Header.jsx"
 import { v4 as uuidv4 } from 'uuid';
 import AddExpense from './components/AddExpense.jsx';
+import Balances from './components/Balances.jsx';
 import { ExpenseTrackerProvider } from './context/ExpenseTrackerContext.js';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
     <div className="bg-black min-h-screen ">
         <AddExpense/>
+        <Balances/>
     </div>
     
   
