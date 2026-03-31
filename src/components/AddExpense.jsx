@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import { useExpenseTracker } from '../context/index.js'
 
-
 function AddExpense() {
-
     const [expenseName,setExpenseName] = useState(" ")
     const [expenseAmount,setExpenseAmount] = useState(0)
     const {addExpense} = useExpenseTracker();
